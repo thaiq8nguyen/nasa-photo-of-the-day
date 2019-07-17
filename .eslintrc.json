@@ -10,7 +10,8 @@
   "globals": {
     "localStorage": false,
     "Promise": false,
-    "document": false
+    "document": false,
+    "process": false
   },
   "rules": {
     "react/prop-types": 0,
