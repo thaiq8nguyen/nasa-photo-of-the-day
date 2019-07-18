@@ -4,3 +4,9 @@
 /* Fonts Stack */
 $roboto: "Roboto", sans-serif;
 $pt-sans: "PT Sans", sans-serif;
+
+/* Heading */
+h1,
+h2 {
+  font-family: $pt-sans;
+}

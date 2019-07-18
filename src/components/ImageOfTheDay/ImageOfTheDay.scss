@@ -1,3 +1,12 @@
+@import "../../styles/variables.scss";
+.logo-container {
+  padding: 0.5rem;
+  .logo {
+    width: 5rem;
+    height: auto;
+  }
+}
+
 .video-container {
   position: relative;
   width: 100%;
@@ -13,9 +22,6 @@
 }
 
 .image-container {
-  width: 50%;
-  height: auto;
-  padding: 1rem;
   .image-content {
   }
 }
