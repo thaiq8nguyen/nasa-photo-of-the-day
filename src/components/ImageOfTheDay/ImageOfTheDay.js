@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import cx from "classnames";
 import { format } from "date-fns";
 import nasaAPIService from "../../services/nasaAPIService";
-import nasaLogo from "/assets/images/nasa_logo.png";
+//import nasaLogo from "/assets/images/nasa_logo.png";
 import styles from "./ImageOfTheDay.scss";
 
 const ImageGrid = () => {
@@ -35,9 +35,7 @@ const ImageGrid = () => {
   return (
     <div className="card">
       <header className="card-header">
-        <div className={styles["logo-container"]}>
-          <img src={nasaLogo} alt="" className={styles.logo} />
-        </div>
+        <div className={styles["logo-container"]}></div>
         <h1 className="card-header-title is-size-5">
           Astronomy Image Of The Day
         </h1>
