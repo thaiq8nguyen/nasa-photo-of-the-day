@@ -1,13 +1,15 @@
 import React from "react";
-import "./App.css";
+
+import "./App.scss";
+import Home from "/views/Home/Home";
+
+import Navbar from "/components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+    <div className="app">
+      <Navbar />
+      <Home />
     </div>
   );
 }

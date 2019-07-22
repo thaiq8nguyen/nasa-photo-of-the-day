@@ -1,0 +1,27 @@
+@import "../../styles/variables.scss";
+.logo-container {
+  padding: 0.5rem;
+  .logo {
+    width: 5rem;
+    height: auto;
+  }
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  .video-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.image-container {
+  .image-content {
+  }
+}
